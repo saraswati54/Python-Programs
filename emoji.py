@@ -1,0 +1,13 @@
+import emoji
+print(emoji.emojize('Python is :thumbs_up',variant="type"))
+print(emoji.emojize('Python is thumbs_up:', use_aliases=True))
+print(emoji.emojize("Python is fun :red_heart:", variant="type"))
+print(emoji.emojize("Python is fun :red_heart:"))
+print(emoji.emojize("Python is fun :thumbs_up:", variant="type"))
+print(emoji.emojize('Python is thumbs up:', use_aliases=True))
+print(emoji.emojize("Python is fun :red_heart:", variant="type"))
+print(emoji.emojize("Python is fun :white_heart:"))
+print(emoji.emojize("Python is "))
+print(emoji.emojize(":grinning_face_with_big_eyes:"))
+print(emoji.emojize(":winking_face_with_tongue:"))
+print(emoji.emojize(":zipper_mouth_face:"))
